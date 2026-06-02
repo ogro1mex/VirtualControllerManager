@@ -1,0 +1,28 @@
+{
+  "theme": "dark",
+  "language": "es",
+  "controllers": {
+    "enabled": true,
+    "poll_rate": 125,
+    "dead_zone": 0.15
+  },
+  "tracking": {
+    "enabled": false,
+    "model_path": "models/yolov8_320x320.onnx",
+    "confidence_threshold": 0.5,
+    "iou_threshold": 0.45,
+    "camera_index": 0,
+    "capture_width": 1280,
+    "capture_height": 720,
+    "fps": 30
+  },
+  "macros": {
+    "enabled": true,
+    "max_macro_length": 100
+  },
+  "virtual_controller": {
+    "type": "xbox360",
+    "deadzone": 0.15,
+    "trigger_threshold": 0.1
+  }
+}
